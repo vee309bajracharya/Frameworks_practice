@@ -17,8 +17,12 @@ module.exports = {
       },
 
       fontFamily:{
-        'orbitron': ['Orbitron', 'sans-serif']
-      }
+
+        'roboto': ['Roboto','sans-serif'],
+        'nunito': ['Nunito Sans','sans-serif'],
+        'orbitron': ['Orbitron','sans-serif'],
+      },
+
     },
   },
   plugins: [],
