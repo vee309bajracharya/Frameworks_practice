@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CodeSquad</title>
 
     <!-- CSS file -->
      <link rel="stylesheet" href="../../dist/style.css">
+    
+     <!-- AOS Link -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 <body>
@@ -14,20 +18,20 @@
     <main>
         
         <!-- navbar starts here -->
-        <header class="bg-purple-600">
-            <section class="p-8 max-w-screen-xl mx-auto">
+        <header class="bg-white sticky top-0 left-0 right-0 bottom-0 z-10 border shadow-md">
+            <section class="wrapper">
                 
                 <nav class="flex justify-between items-center">
                    <div>
                        <!-- <img src="../../public/images/ourLogo.png" alt="Logo" class="w-24 h-30"> -->
-                        <a href="./index.html" class="navbar-items">Code Squad</a>
+                        <a href="./index.html" class="navbar-items">CodeSquad</a>
                    </div>
         
                    <div class="">
                        <ul class="flex justify-between items-center gap-6">
                            <li><a href="./index.html" class="navbar-items">Home</a></li>
                            <li><a href="#about" class="navbar-items">About</a></li>
-                           <li><a href="#teams" class="navbar-items">Teams</a></li>
+                           <li><a href="#team" class="navbar-items">Team</a></li>
                            <li><a href="#contact" class="navbar-items">Contact</a></li>
                        </ul>
                    </div>
@@ -37,60 +41,146 @@
     
         </header>
         <!-- navbar ends here -->
+<!-- ====================================================================================== -->
 
-        <!-- Home page starts here -->
-        <div class="relative h-[500px]">
 
-            <img src="../../public/images/billboard_img.jpg" alt="Welcome Image" class="w-full h-full object-cover">
 
-            <section class="p-8 max-w-screen-xl mx-auto">
-                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-2">
+        <!-- Home section starts here -->
+        <div>
+            <img src="../../public/svg/team.svg" alt="Welcome Image" class="w-full h-[20rem] mt-9" data-aos="fade-up" data-aos-duration="4000">
+
+
+            <section class="wrapper">
+                <div class="flex flex-col items-center justify-center text-center text-white p-2" data-aos="fade-up" data-aos-duration="4000" data-aos-duration="4000">
     
-                    <h1 class="text-5xl font-bold text-white">Welcome to our CodeSquad official website!</h1>
+                    <h1 class="text-5xl font-bold text-gray-900">Welcome to CodeSquad official website!</h1>
     
-                    <p class="text-lg text-gray-300 mt-5">This is a sample website created by our team. Enjoy exploring!</p>
+                    <p class="text-lg text-gray-800 mt-5">This is a sample website created by our team. Enjoy exploring!</p>
     
-                    <button class="bg-purple-800 rounded-xl text-normal text-white text-center p-3 font-orbitron text-md mt-5">Explore More</button>
+                    <button class="bg-purple-600 rounded-full text-normal text-white text-center px-5 py-2 font-nunito text-md mt-5">Explore More</button>
                 </div>
 
             </section>
         </div>
-        <!-- Home page ends here -->
-
-        <!-- About page starts -->
-        <div class="my-4">
-            <section class="p-8 max-w-screen-xl mx-auto">
-                <h1 class="text-4xl text-center  font-bold text-purple-700 font-orbitron">About CodeSquad</h1>
+        <!-- Home section ends here -->
+<!-- ====================================================================================== -->
 
 
-                <!-- About Content Wrapper -->
-                <div class="flex justify-between gap-5 items-center">
-                    <!-- about left portion -->
-                    <div class="w-4/5">
-                        <h1 class="text-bold text-purple-700 my-5 text-3xl font-orbitron">Know About Us</h1>
-                        <p class="">Welcome to CodeSquad, a dynamic collective of IT enthusiasts, innovators, and problem-solvers. We are a passionate group dedicated to leveraging the power of technology to create cutting-edge solutions. Our mission is to explore, design, and implement IT projects that push the boundaries of what's possible.
-        
-                        At CodeSquad, we believe in the collaborative spirit, where every member's unique skills and perspectives come together to drive success. Whether we're coding, brainstorming, or testing new ideas, our commitment to excellence and continuous learning defines who we are. Join us as we embark on this exciting journey to shape the future of IT.</p>
-                    </div>
-        
-                    <!-- about right portion -->
-                    <div class="w-80">
-                        <img src="../../public/images/about_right_side.jpg" alt="About Image" class="">
-                    </div>
-                    
-                    
+        <!-- About section starts -->
+        <section class="wrapper" id="about">
+    
+                 <!-- about grid content wrapper -->
+                 <div class="grid">
+    
+                     <!-- grid content 1 -->
+                     <aside data-aos="fade-down" data-aos-duration="4000">
+                         <h5 class="font-semibold text-[1.4rem] text-gray-800 font-roboto">About CodeSquad</h5>
+                         <h1 class="my-5 font-roboto font-extrabold text-5xl">Your trusted partner <br> for business</h1>
+    
+                         <p class="my-4 text-left leading-6 font-normal">Welcome to CodeSquad, a dynamic collective of IT enthusiasts, innovators, and problem-solvers. We are a passionate group dedicated to leveraging the power of technology to create cutting-edge solutions. Our mission is to explore, design, and implement IT projects that push the boundaries of what's possible.
+                         </p>
+                     </aside>
+    
+                     <!-- grid content 2 -->
+                      <div class="w-full" data-aos="zoom-in-up">
+                         <figure>
+                             <img src="../../public/images/about-1.jpg" alt="About Image1"
+                             class="content-img">
+                         </figure>
+                      </div>
+    
+                     <!-- grid content 3 -->
+                     <div class="w-full" data-aos="zoom-in">
+                         <figure>
+                             <img src="../../public/images/about-2.jpg" alt="About Image1" class="rounded-xl h-[25rem] object-cover">
+                         </figure>
+                      </div>
+    
+                     <!-- grid content 4 -->
+                     <div class="w-full" data-aos="zoom-in">
+                         <figure>
+                             <img src="../../public/images/about-3.jpg" alt="About Image1" class="content-img">
+                         </figure>
+                      </div>
+    
+                 </div>
+             </section>
+        <!-- About section ends -->
+<!-- ====================================================================================== -->
+
+        <!-- Teams section starts -->
+        <section class="wrapper" id="team">
+
+            <!-- Teams container -->
+             <section class="flex flex-col gap-2">
+
+                 <!-- Top Content -->
+                 <div data-aos="fade-down" data-aos-duration="4000">
+                    <h5 class="font-semibold text-[1.4rem] text-gray-800 font-roboto">CodeSquad Team</h5>
+                    <h1 class="my-5 font-roboto font-extrabold text-5xl">Awesome team members</h1>
                 </div>
-                
-            </section>
-            
-        </div>
 
+                <!-- Bottom Content -->
+                 <section class="flex justify-between items-center sm:flex-col md:flex-row gap-3" data-aos="fade-right" data-aos-duration="4000">
 
+                    <!-- Member 1 -->
+                    <div class="relative">
+                        <figure>
+                            <img src="../../public/images/member1.jpg" alt="Member1" class="member-img">
+                        </figure>
+                        <div class="figcontainer">
+                            <figcaption class="figtext">
+                                <h3 class="member-img-heading">Veerin Bajracharya</h3>
+                                <p class="member-img-para">Project Leader, Instructor</p>
+                            </figcaption>
 
+                        </div>
+                    </div>
 
+                    <!-- Member 2 -->
+                    <div class="relative">
+                        <figure>
+                            <img src="../../public/images/member2.jpg" alt="Member2" class="member-img">
+                        </figure>
+                        <div class="figcontainer">
+                            <figcaption class="figtext">
+                                <h3 class="member-img-heading">Aradhana Rijal</h3>
+                                <p class="member-img-para">Contributor</p>
+                            </figcaption>
 
+                        </div>
+                    </div>
 
-        <!-- About page ends -->
+                    <!-- Member 3 -->
+                     <div class="relative">
+                        <figure>
+                            <img src="../../public/images/member3.jpg" alt="Member3" class="member-img">
+                        </figure>
+                        <div class="figcontainer">
+                            <figcaption class="figtext">
+                                <h3 class="member-img-heading">Sujita Shrestha</h3>
+                                <p class="member-img-para">Contributor</p>
+                            </figcaption>
+                        </div>
+                    </div>
+
+                    <!-- Member 4 -->
+                     <div class="relative">
+                        <figure>
+                            <img src="../../public/images/member4.jpg" alt="Member4" class="member-img">
+                        </figure>
+                        <div class="figcontainer">
+                            <figcaption class="figtext">
+                                <h3 class="member-img-heading">Dikshant Shrestha</h3>
+                                <p class="member-img-para">Contributor</p>
+                            </figcaption>
+                        </div>
+                    </div>
+
+                 </section>
+             </section>
+        </section>
+        <!-- Teams section ends -->
         
 
         
@@ -108,5 +198,12 @@
 
     <!-- JS file -->
     <script src="../js/main.js"></script>
+
+    <!-- AOS Script Link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
 </body>
 </html>
