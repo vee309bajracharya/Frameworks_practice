@@ -55,7 +55,7 @@
     @apply absolute bottom-0 left-0 p-5 mb-1 w-full;
   }
   .member-img{
-    @apply object-cover w-[30rem] h-[25rem] rounded-xl;
+    @apply object-cover w-[40rem] h-[25rem] rounded-xl;
   }
   .member-img-heading{
     @apply font-extrabold font-nunito text-2xl text-white;
@@ -64,13 +64,16 @@
     @apply text-sm text-gray-300 font-nunito;
   }
 
-
-
-
-  /* swiper */
-  .swiper {
-    @apply w-[600px] h-[300px];
+  /* contact section */
+  .icons{
+    @apply font-medium;
   }
+
+  /* form validate msg */
+  .errorMsg{
+    @apply text-red-500 font-nunito font-medium mt-2;
+  }
+
 
 
 }
