@@ -64,6 +64,7 @@
     @apply text-sm text-gray-300 font-nunito;
   }
 
+
   /* contact section */
   .icons{
     @apply font-medium;
@@ -74,6 +75,10 @@
     @apply text-red-500 font-nunito font-medium mt-2;
   }
 
+  /* social media icons */
+  .media-icons{
+    @apply w-10 h-10 object-cover border-[1px] border-dark rounded-full p-2 hover:bg-btnsecondary hover:border-transparent hover:fill-light hover:-translate-y-1 duration-300 ease-in-out transition-all cursor-pointer dark:bg-light;
+  }
 
 
 }
