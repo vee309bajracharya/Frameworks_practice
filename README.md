@@ -1,5 +1,5 @@
 # **CodeSquad** 🚀
-This project involves a team led by Veerin Bajracharya who serves as the project advisor and includes three members who're beginners, to the Tailwind CSS framework. The team is utilizing the Tailwind CSS CLI to  acquire experience, with Tailwind CSS by developing an visually appealing website.
+This project involves a team led by **Veerin Bajracharya** who serves as the project advisor and includes three members who're beginners, to the Tailwind CSS framework. The team is utilizing the Tailwind CSS CLI to  acquire experience, with Tailwind CSS by developing an visually appealing website.
 
 ## Features ✨
 - Built with Tailwind CSS 🎨
@@ -30,7 +30,15 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    npx tailwindcss -i ./src/css/input.css -o ./dist/style.css
 
-## Screenshots 📸
+## Automatic Theme Switching 
+![Light Mode](https://img.shields.io/badge/-Light%20Mode-F7DF1E?style=flat&logo=sun&logoColor=black) ![Dark Mode](https://img.shields.io/badge/-Dark%20Mode-2E2E2E?style=flat&logo=moon&logoColor=white)
+
+Using Tailwind CSS, the site seamlessly switches between dark and light themes based on your system settings.
+
+- **Dark Mode:** Activated, if your system is set to dark mode.
+- **Light Mode:** Activated, if your system is set to light mode.
+
+Enjoy viewing experience regardless of your system preferences!
 
 ## Dark Mode
 ![screencapture-vee309bajracharya-github-io-Frameworks-practice-front-end-public-views-index-html-2024-09-17-09_52_08](https://github.com/user-attachments/assets/f2369ac4-98e8-4142-afa9-d4b15ff7ede1)
